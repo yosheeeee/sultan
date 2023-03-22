@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,21 @@
     <title>header test</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <header>
         <div class="first-line">
             <div class="first-line--location">
                 <img src="./img/location.svg" alt="location">
                 <p>г. Кокчетав, ул. Ж. Ташенова 129Б <br>
-                    <span>(Рынок Восточный)</span></p>
+                    <span>(Рынок Восточный)</span>
+                </p>
             </div>
             <div class="first-line--contacts">
                 <img src="./img/mail.svg" alt="mail">
                 <p>opt.sultan@mail.ru <br>
-                   <span>На связи в любое время</span></p>
+                    <span>На связи в любое время</span>
+                </p>
             </div>
             <ul class="first-line--menu">
                 <li>О компании</li>
@@ -26,17 +30,69 @@
                 <li>Возврат</li>
                 <li>Контакты</li>
             </ul>
+            <div class="burger"></div>
+            <img src="./img/logo-mobile.svg" alt="logo" class="mobile-logo">
+            <div class="caret">
+                <p>3</p>
+            </div>
+
         </div>
         <div class="second-line">
             <div class="second-line--content">
                 <img src="./img/logo.svg" alt="logo" class="logo">
-                <button class="catalog"><p>Каталог</p><img src="./img/squares.svg" alt="squares"></button>
+                <button class="catalog">
+                    <p>Каталог</p><img src="./img/squares.svg" alt="squares">
+                </button>
                 <form name="search" class="search">
                     <input type="text" name="searchInput" placeholder="Поиск...">
                     <input type="submit" name="searchButton" value=""></input>
                 </form>
+
+                <div class="second-line--contacts">
+                    <div class="second-line--contacts--text">
+                        <p class="second-line--contacts--text--phone">+7 (777) 490-00-91</p>
+                        <p class="second-line--contacts--text--time">время работы: 9:00-20:00</p>
+                        <p class="second-line--contacts--text--call">Заказать звонок</p>
+                    </div>
+
+                    <img src="./img/helper.png" alt="helper" class="second-line--contacts--img">
+                </div>
+
+                <img src="./img/vertical_line.svg" alt="line" class="second-line--separator">
+
+                <button class="second-line--price-list">
+                    <p>Прайс-лист</p>
+                    <img src="./img/price-list.svg" alt="prive-list">
+                </button>
+
+                <img src="./img/vertical_line.svg" alt="line" class="second-line--separator">
+
+                <div class="second-line--caret">
+                    <div class="second-line--caret--caret">
+                        <p>3</p>
+                    </div>
+
+                    <div class="second-line--caret--text">
+                        <p>Корзина</p>
+                        <p class="second-line--caret--text--price">12 478 ₸</p>
+                    </div>
+                </div>
+
+                
+            </div>
+            <div class="second-line--mobile">
+                <div class="second-line--mobile--catalog">
+                    <img src="./img/squares-mobile.svg" alt="squares">
+                    <p>Каталог</p>
+                </div>
+                <img src="./img/separator-mobile.svg" alt="separator" class="mobile-separator">
+                <div class="second-line--mobile--search">
+                    <img src="./img/search-mobile.svg" alt="search">
+                    <p>Поиск</p>
+                </div>
             </div>
         </div>
     </header>
 </body>
+
 </html>
