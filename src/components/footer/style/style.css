@@ -2,8 +2,6 @@
 footer {
   background-color: #3F4E65;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   color: white;
   font-family: "Inter";
 }
@@ -217,5 +215,214 @@ body {
 @media only screen and (min-width: 451px) {
   .footer--content--mobile {
     display: none;
+  }
+
+  footer {
+    min-width: 1369px;
+  }
+  footer p {
+    margin: 0;
+  }
+  footer .footer--content {
+    max-width: 1369px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 71px;
+    padding-bottom: 116px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  footer .footer--content .logo {
+    grid-column: 1/2;
+  }
+  footer .footer--content .about-company {
+    grid-column: 1/2;
+    width: 320px;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  footer .footer--content .subscribe {
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 45px;
+    grid-column: 1/2;
+  }
+  footer .footer--content form[name=inputEmail] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    padding: 13px 10px;
+    border: 0;
+    border-radius: 36px;
+    justify-content: space-between;
+    width: auto;
+    margin-top: 14px;
+    grid-column: 1/2;
+  }
+  footer .footer--content form[name=inputEmail] input[type=submit] {
+    width: 39px;
+    height: 39px;
+    border: inherit;
+    border-radius: 50%;
+    background-color: #FFC85E;
+    background-image: url("../img/send-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  footer .footer--content form[name=inputEmail] input[type=email] {
+    border: 0;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #5C6370;
+    width: auto;
+  }
+  footer .footer--content form[name=inputEmail] input[type=email]:focus {
+    outline: none;
+  }
+  footer .footer--content .menu {
+    grid-column: 2/3;
+  }
+  footer .footer--content .categories {
+    grid-column: 3/4;
+  }
+  footer .footer--content .menu,
+footer .footer--content .categories {
+    grid-row: 1/4;
+  }
+  footer .footer--content .menu h2,
+footer .footer--content .categories h2 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 25px;
+  }
+  footer .footer--content .menu ul,
+footer .footer--content .categories ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .footer--content .menu ul li,
+footer .footer--content .categories ul li {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  footer .footer--content .price-list {
+    grid-column: 4/5;
+    grid-row: 1/4;
+  }
+  footer .footer--content .price-list h2 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 25px;
+  }
+  footer .footer--content .price-list button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    border: 0;
+    border-radius: 79px;
+    background-color: #FFC85E;
+    color: white;
+    padding: 21px 51px;
+  }
+  footer .footer--content .price-list button p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  footer .footer--content .price-list .price-list--links {
+    margin-top: 20px;
+  }
+  footer .footer--content .price-list .price-list--links p {
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 15px;
+  }
+  footer .footer--content .price-list .price-list--links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  footer .footer--content .price-list .price-list--links ul li {
+    width: 39px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  footer .footer--content .price-list .price-list--links ul .whatsapp {
+    background-image: url("../img/whatsapp-mobile.svg");
+  }
+  footer .footer--content .price-list .price-list--links ul .telegram {
+    background-image: url("../img/telegram-mobile.svg");
+  }
+  footer .footer--content .contacts {
+    grid-row: 1/4;
+    grid-column: 5/6;
+  }
+  footer .footer--content .contacts h2 {
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 25px;
+  }
+  footer .footer--content .contacts strong {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  footer .footer--content .contacts p {
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 300;
+  }
+  footer .footer--content .contacts p span {
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration: underline;
+  }
+  footer .footer--content .contacts p.mail {
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 130%;
+    font-weight: 300;
+  }
+  footer .footer--content .contacts p.mail span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: none;
+  }
+  footer .footer--content .contacts ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    list-style-type: none;
+    padding: 0;
+  }
+  footer .footer--content .contacts ul li {
+    width: 61px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  footer .footer--content .contacts ul li.visa {
+    background-image: url("../img/visa-mobile.svg");
+  }
+  footer .footer--content .contacts ul li.mastercard {
+    background-image: url("../img/mastercard-mobile.svg");
   }
 }
