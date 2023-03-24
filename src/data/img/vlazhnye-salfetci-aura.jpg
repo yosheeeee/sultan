@@ -1,0 +1,83 @@
+<div class="product-media__zoom-container">
+    <img class="product-media__zoom-img js-zoom-img"
+             src="/katalog/khozyajstvennye-tovary/salfetki/salfetki-vlazhnye-dlya-lichnoj-gigieny/vlazhnye-salfetki-antibakterialnye-aura-family-144-shtuki-v-upakovke/p/1027847/downloadVideo?code="
+             alt="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+             title="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+             width="680"
+             height="680"/>
+        <video autoplay controls width="880" height="480"
+               class="product-media__zoom-video js-zoom-video product-media__zoom-video--hidden">
+        </video>
+    </div>
+
+<button class="modal__close js-close-gallery">
+    
+
+
+
+
+
+
+
+
+<svg class="product-media__close" width="32" height="32" >
+    <use xlink:href="/_ui/shared/images/sprites/sprite-shared.svg#service_close"></use>
+</svg>
+</button>
+
+<div class="product-media__gallery js-media-gallery">
+    <button class="product-media__prev-btn js-media-prev gtm-media-popup-left-button"></button>
+    <button class="product-media__next-btn js-media-next gtm-media-popup-rigth-button"></button>
+    <div class="product-media__pagination-slider">
+        <button class="images-control__scroll images-control__scroll--left js-scroll-left-images-pagination"></button>
+        <button class="images-control__scroll images-control__scroll--right js-scroll-right-images-pagination"></button>
+        <ul class="images-control js-scroll-control-images">
+            <li class="images-control__item images-control__item--active js-pagination-controls gtm-media-popup-img"
+                            data-index-slide="1">
+                            <img class="images-control__img js-slide-pagination"
+                                src="https://media.komus.ru/medias/sys_master/root/hac/h53/11581505601566/1027847-1-70Wx70H.jpg"
+                                data-zoom-url="https://media.komus.ru/medias/sys_master/root/h06/h3e/11581505667102/1027847-1-800Wx800H.jpg"
+                                alt="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                title="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                width="34"
+                                height="34">
+                        </li>
+
+                        <li class="images-control__item images-control__item--active js-pagination-controls gtm-media-popup-img"
+                            data-index-slide="2">
+                            <img class="images-control__img js-slide-pagination"
+                                src="https://media.komus.ru/medias/sys_master/root/hed/h2a/11581504356382/1027847-2-70Wx70H.jpg"
+                                data-zoom-url="https://media.komus.ru/medias/sys_master/root/hcf/h98/11581504421918/1027847-2-800Wx800H.jpg"
+                                alt="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                title="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                width="34"
+                                height="34">
+                        </li>
+
+                        <li class="images-control__item images-control__item--active js-pagination-controls gtm-media-popup-img"
+                            data-index-slide="3">
+                            <img class="images-control__img js-slide-pagination"
+                                src="https://media.komus.ru/medias/sys_master/root/h37/h6a/11581504749598/1027847-3-70Wx70H.jpg"
+                                data-zoom-url="https://media.komus.ru/medias/sys_master/root/h65/hf6/11581504815134/1027847-3-800Wx800H.jpg"
+                                alt="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                title="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                width="34"
+                                height="34">
+                        </li>
+
+                        <li class="images-control__item images-control__item--active js-pagination-controls gtm-media-popup-img"
+                            data-index-slide="4">
+                            <img class="images-control__img js-slide-pagination"
+                                src="https://media.komus.ru/medias/sys_master/root/hac/he0/11581505208350/1027847-4-70Wx70H.jpg"
+                                data-zoom-url="https://media.komus.ru/medias/sys_master/root/h7c/hf6/11581505273886/1027847-4-800Wx800H.jpg"
+                                alt="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                title="Влажные салфетки антибактериальные Aura Family 144 штуки в упаковке"
+                                width="34"
+                                height="34">
+                        </li>
+
+                        </ul>
+    </div>
+</div>
+
+
