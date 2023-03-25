@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './style/style.css'
 import { JsxElement } from 'typescript';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -34,9 +35,11 @@ function Header() {
             <div className="second-line">
                 <div className="second-line--content">
                     <img src="img/header/logo.svg" alt="logo" className="logo" />
-                    <button className="catalog">
-                        <p>Каталог</p><img src="img/header/squares.svg" alt="squares" />
-                    </button>
+                    <Link to='/catalog'>
+                        <button className="catalog">
+                            <p>Каталог</p><img src="img/header/squares.svg" alt="squares" />
+                        </button>
+                    </Link>
                     <form name="search" className="search">
                         <input type="text" name="searchInput" placeholder="Поиск..." />
                         <input type="submit" name="searchButton" value="" />

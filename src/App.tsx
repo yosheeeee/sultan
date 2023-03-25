@@ -1,23 +1,18 @@
 import React, { useState } from 'react';
 import Header from "./components/header/header";
 import Footer from './components/footer/Footer';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import CatalogPage from './pages/CatalogPage/CatalogPage';
 
 function App() {
-  const [likes, setCount] = useState(0)
-  const [value, setValue] = useState('начальное значение')
-
   return (
-    // <div>
-    //   <p>likes: {likes}</p>
-    //   <button onClick={() => setCount(likes + 1)}>+</button>
-    //   <button onClick={() => setCount(likes - 1)}>-</button>
-    //   <h1>{value}</h1>
-    //   <input value={value} onChange={(event) => setValue(event.target.value)}/>
-    // </div>
-    <>
-      <Header></Header>
-      <Footer></Footer>
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/catalog' element={<CatalogPage/>}></Route>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

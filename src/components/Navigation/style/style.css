@@ -1,0 +1,14 @@
+.navigation {
+  width: 1370px;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.navigation a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3F4E65;
+}
