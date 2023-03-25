@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { MouseEventHandler, useState } from 'react';
 
-
 interface CatalogTitleProps {
     children: string
 }
@@ -23,9 +22,7 @@ const CatalogTitle = ({ children }: CatalogTitleProps) => {
                     <option value="price">Цена</option>
                 </select>
 
-                <div className={switcherClassList.join(' ')} onClick={ () => setSwitcher(prev => !prev)}>
-                    <div className={sliderClassList.join(' ')}></div>
-                </div>
+                <div className={switcherClassList.join(' ')} onClick={ () => setSwitcher(prev => !prev)}></div>
             </form>
         </div>
     );

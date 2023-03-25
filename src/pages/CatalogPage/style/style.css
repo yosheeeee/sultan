@@ -57,28 +57,12 @@
   background: rgba(188, 166, 122, 0.2);
   border-radius: 1000px;
   background-repeat: no-repeat;
-}
-.catalogPage .content .title form[name=sorting] .switch .slider {
-  width: 49px;
-  height: 37px;
-  border-radius: 1000px;
-  background-color: white;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: margin-left 0.5s;
-}
-.catalogPage .content .title form[name=sorting] .switch .slider.left {
-  background-image: url("../catalog-header/img/burger.svg");
-}
-.catalogPage .content .title form[name=sorting] .switch .slider.right {
-  margin-left: 42px;
-  background-image: url("../catalog-header/img/square.svg");
+  background-image: url("../catalog-header/img/burger.svg"), url("../catalog-header/img/square.svg"), url("../catalog-header/img/slider.svg");
+  transition: background-position 0.3s;
 }
 .catalogPage .content .title form[name=sorting] .switch.right {
-  background-image: url("../catalog-header/img/burger.svg");
-  background-position: left 18px center;
+  background-position: left 18px center, right 18px center, right 4px center;
 }
 .catalogPage .content .title form[name=sorting] .switch.left {
-  background-image: url("../catalog-header/img/square.svg");
-  background-position: right 18px center;
+  background-position: left 18px center, right 18px center, left 4px center;
 }
