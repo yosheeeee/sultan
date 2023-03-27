@@ -1,0 +1,45 @@
+.pageSlider {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 9px;
+    align-items: center;
+    margin-bottom: 68px;
+
+    .back,
+    .forward {
+        width: 9px;
+        height: 16px;
+        border: 0;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .back {
+        background: url('./img/left.svg');
+        margin-right: 26px;
+    }
+
+    .forward {
+        background: url('./img/right.svg');
+        margin-left: 26px;
+    }
+
+    .page-item {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+
+        &.active {
+            background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+            border-radius: 1000px;
+        }
+    }
+}

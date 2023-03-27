@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "./components/header/header";
 import Footer from './components/footer/Footer';
-import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CatalogPage from './pages/CatalogPage/CatalogPage';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/catalog' element={<CatalogPage/>}></Route>
+        <Route path='/catalog' element={<CatalogPage />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

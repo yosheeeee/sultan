@@ -34,7 +34,7 @@ function Header() {
             </div>
             <div className="second-line">
                 <div className="second-line--content">
-                    <img src="img/header/logo.svg" alt="logo" className="logo" />
+                    <Link to='/'><img src="img/header/logo.svg" alt="logo" className="logo" /></Link>
                     <Link to='/catalog'>
                         <button className="catalog">
                             <p>Каталог</p><img src="img/header/squares.svg" alt="squares" />
