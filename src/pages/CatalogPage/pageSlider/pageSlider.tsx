@@ -21,7 +21,6 @@ const PageSlider: React.FunctionComponent<PageSliderProps> = ({ itemsCounter, se
 
     let itemsNumber : number[] = []
     for (let i=1; i<=counter;i++) itemsNumber.push(i)
-    console.log(itemsNumber.length);
     return (
         <div className="pageSlider" onClick={() => {if(currentPage > 0) setCurrentPage(currentPage -1) }}>
             <button className="back" ></button>

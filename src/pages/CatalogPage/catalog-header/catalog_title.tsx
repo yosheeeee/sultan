@@ -14,6 +14,7 @@ const CatalogTitle = ({ children, sortType, sortCards }: CatalogTitleProps) => {
     const sliderClassList: string[] = ['slider', switcher ? 'right' : 'left']
 
     function changeSort(event: ChangeEvent<HTMLSelectElement>): void {
+        event.preventDefault()
         sortCards(event.target.value)
     }
 

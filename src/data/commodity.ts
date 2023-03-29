@@ -1,4 +1,6 @@
-const commodities = [
+
+
+const commodities  = [
     {
         "name": "Средство для мытья посуды Сочный лимон 900 мл",
         "price": "259",

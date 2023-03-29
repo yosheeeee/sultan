@@ -22,7 +22,7 @@ interface IProduct{
 const CatalogItem: React.FunctionComponent<CatalogItemProps> = ({product}: CatalogItemProps) => {
     return ( 
         <div className="card">
-            <img src={`img/products/${product.imgName}`} className="image" />
+            <img src={`/img/products/${product.imgName}`} className="image" />
             <p className="weight">{product.weight}</p>
             <p className="name"><span>{product.brand}</span> {product.name}</p>
             <div className="description">

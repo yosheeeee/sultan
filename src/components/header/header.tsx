@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './style/style.css'
+import './style/style.scss'
 import { JsxElement } from 'typescript';
 import { Link } from 'react-router-dom';
 
@@ -8,13 +8,13 @@ function Header() {
         <header>
             <div className="first-line">
                 <div className="first-line--location">
-                    <img src="img/header/location.svg" alt="location" />
+                    <img src="/img/header/location.svg" alt="location" />
                     <p>г. Кокчетав, ул. Ж. Ташенова 129Б <br />
                         <span>(Рынок Восточный)</span>
                     </p>
                 </div>
                 <div className="first-line--contacts">
-                    <img src="img/header/mail.svg" alt="mail" />
+                    <img src="/img/header/mail.svg" alt="mail" />
                     <p>opt.sultan@mail.ru <br />
                         <span>На связи в любое время</span>
                     </p>
@@ -26,7 +26,7 @@ function Header() {
                     <li>Контакты</li>
                 </ul>
                 <div className="burger" />
-                <img src="img/header/logo-mobile.svg" alt="logo" className="mobile-logo" />
+                <img src="/img/header/logo-mobile.svg" alt="logo" className="mobile-logo" />
                 <div className="caret">
                     <p>3</p>
                 </div>
@@ -34,10 +34,10 @@ function Header() {
             </div>
             <div className="second-line">
                 <div className="second-line--content">
-                    <Link to='/'><img src="img/header/logo.svg" alt="logo" className="logo" /></Link>
+                    <Link to='/'><img src="/img/header/logo.svg" alt="logo" className="logo" /></Link>
                     <Link to='/catalog'>
                         <button className="catalog">
-                            <p>Каталог</p><img src="img/header/squares.svg" alt="squares" />
+                            <p>Каталог</p><img src="/img/header/squares.svg" alt="squares" />
                         </button>
                     </Link>
                     <form name="search" className="search">
@@ -52,17 +52,17 @@ function Header() {
                             <p className="second-line--contacts--text--call">Заказать звонок</p>
                         </div>
 
-                        <img src="img/header/helper.png" alt="helper" className="second-line--contacts--img" />
+                        <img src="/img/header/helper.png" alt="helper" className="second-line--contacts--img" />
                     </div>
 
-                    <img src="img/header/vertical_line.svg" alt="line" className="second-line--separator" />
+                    <img src="/img/header/vertical_line.svg" alt="line" className="second-line--separator" />
 
                     <button className="second-line--price-list">
                         <p>Прайс-лист</p>
-                        <img src="img/header/price-list.svg" alt="prise-list" />
+                        <img src="/img/header/price-list.svg" alt="prise-list" />
                     </button>
 
-                    <img src="img/header/vertical_line.svg" alt="line" className="second-line--separator" />
+                    <img src="/img/header/vertical_line.svg" alt="line" className="second-line--separator" />
 
                     <div className="second-line--caret">
                         <div className="second-line--caret--caret">
@@ -79,12 +79,12 @@ function Header() {
                 </div>
                 <div className="second-line--mobile">
                     <div className="second-line--mobile--catalog">
-                        <img src="img/header/squares-mobile.svg" alt="squares" />
+                        <img src="/img/header/squares-mobile.svg" alt="squares" />
                         <p>Каталог</p>
                     </div>
-                    <img src="img/header/separator-mobile.svg" alt="separator" className="mobile-separator" />
+                    <img src="/img/header/separator-mobile.svg" alt="separator" className="mobile-separator" />
                     <div className="second-line--mobile--search">
-                        <img src="img/header/search-mobile.svg" alt="search" />
+                        <img src="/img/header/search-mobile.svg" alt="search" />
                         <p>Поиск</p>
                     </div>
                 </div>

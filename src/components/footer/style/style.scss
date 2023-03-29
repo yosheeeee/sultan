@@ -20,7 +20,7 @@ body {
     padding: 0;
 }
 
-@media only screen and(max-width:450px) {
+@media only screen and  (max-width:450px) {
 
     .footer--content {
         display: none;
@@ -210,12 +210,16 @@ body {
                     margin-top: 17px;
                     padding: 0;
 
-                    li {
-                        width: 39px;
-                        height: 39px;
-                        cursor: pointer;
-                        background-position: center;
-                        background-repeat: no-repeat;
+                    a{
+                        color: white;
+                        li {
+                            width: 39px;
+                            height: 39px;
+                            cursor: pointer;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                        }
+    
                     }
 
                     .whatsapp {
@@ -266,6 +270,9 @@ body {
     }
 
     footer {
+        a{
+            color:inherit;
+        }
         min-width: 1369px;
         p{
             margin:0;

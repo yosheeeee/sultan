@@ -1,4 +1,6 @@
 .pageSlider {
+    grid-column: 1/3;
+    grid-row: 3/4;
     display: flex;
     flex-direction: row;
     width: fit-content;
